@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:fillViewport="true"
+    android:background="@drawable/background"
+    tools:context="android.proz.misiewicz.elkowanie.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"/>
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo2"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/foot"
+            >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="11dp"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/secondaryColor"
+                    android:text="@string/register_str"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/secondaryColor"
+                    android:hint="@string/login"
+                    android:id="@+id/login_register_field">
+                    <requestFocus />
+                </EditText>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_marginLeft="6dp"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="5dp"
+                android:textColor="@color/secondaryColor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:id="@+id/password_register_field"
+                />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:drawableLeft="@drawable/lock"
+                    android:textColor="@color/secondaryColor"
+                    android:drawablePadding="5dp"
+                    android:inputType="textPassword"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:hint="@string/password_repeat"
+                    android:id="@+id/repeat_password_field"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center"
+                    android:background="@color/secondaryColor"
+                    android:text="@string/register_button"
+                    android:onClick="register"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

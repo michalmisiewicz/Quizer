@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Quizer</string>
+    <string name="login">Nazwa użytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="bad_login">Bład logowania</string>
+    <string name="login_button">Zaloguj</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="menu">Menu</string>
+    <string name="no_connection">Brak połączenia z internetem</string>
+    <string name="new_game">Nowa gra</string>
+    <string name="invite_message">zaprasza Ciebie do wspólnej gry</string>
+    <string name="cancel">ODRZUĆ</string>
+    <string name="accept_invitation">Akceptuj</string>
+    <string name="invitation_dialog_title">Zaproszenie</string>
+    <string name="opponent_username">opponent</string>
+    <string name="wait_button">Czekaj</string>
+    <string name="round_1">1 Runda</string>
+    <string name="round_2">2 Runda</string>
+    <string name="round_3">3 Runda</string>
+    <string name="player">placeholder</string>
+    <string name="opponent">placeholder</string>
+    <string name="versus">vs</string>
+    <string name="play">Graj</string>
+    <string name="repeat_password">Powtórz hasło:</string>
+    <string name="register_button">Zarejestruj się</string>
+    <string name="password_error">Podane hasła są różne</string>
+    <string name="login_error">Login jest już zajęty</string>
+    <string name="question_download">Pobieranie pytań z bazy</string>
+    <string name="wait_message">Proszę czekać...</string>
+    <string name="question">question</string>
+    <string name="game_id">game_id</string>
+    <string name="results">results</string>
+    <string name="is_new_game">is_new_game</string>
+    <string name="register">Nie masz konta ? Zarejestruj się</string>
+    <string name="successful_register">Konto zostało utworzone</string>
+    <string name="server_unreachable">Serwer jest nieosiągalny. Proszę spróbować ponownie za chwilę</string>
+    <string name="login_title">Logowanie</string>
+    <string name="login_message">Logowanie. Proszę czekać...</string>
+    <string name="username_taken">Nazwa użytkownika jest już zajęta</string>
+    <string name="registerResult">registerResult</string>
+    <string name="empty_error">Pole nie może być puste</string>
+    <string name="diffrent_password">Podane hasła są różne</string>
+    <string name="login_activity">Logowanie</string>
+    <string name="register_activity">Rejestracja</string>
+    <string name="password_repeat">Powtórz hasło</string>
+    <string name="register_str">Rejestracja:</string>
+    <string name="last_games">Ostatnie gry</string>
+    <string name="about">O programie</string>
+    <string name="exit">Wyloguj się</string>
+    <string name="click_me">Kliknij mnie, aby rozpocząc grę</string>
+    <string name="about_dialog_title">O programie</string>
+    <string name="ok">ok</string>
+    <string name="no_results">W bazie danych nie ma twoich wynikow</string>
+    <string name="resultsTitle">Wyniki</string>
+    <string name="no_user">Nie znaleziono żadnego wolnego użytkownika. Proszę spróbować za chwilę</string>
+    <string name="register_message">Rejestracja konta w serwerze. Proszę czekać...</string>
+    <string name="server_address">Adres serwera</string>
+    <string name="pref_serv_addr">Adres serwera</string>
+    <string name="pref_addr_key">pref_serv_addr</string>
+    <string name="default_serv_addr">192.168.0.102</string>
+    <string name="setting_activity">Ustawienia</string>
+</resources>

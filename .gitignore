@@ -1,7 +1,3 @@
-# Built application files
-*.apk
-*.ap_
-
 # Files for the Dalvik VM
 *.dex
 
@@ -88,3 +84,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+server/.idea

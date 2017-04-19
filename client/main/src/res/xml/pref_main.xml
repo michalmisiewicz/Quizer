@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditTextPreference
+        android:title="@string/pref_serv_addr"
+        android:key="@string/pref_addr_key"
+        android:defaultValue="@string/default_serv_addr"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:singleLine="true" />
+</PreferenceScreen>
