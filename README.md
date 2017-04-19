@@ -6,6 +6,6 @@
 ![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/invite.png)
 #### Serwer
 ##### Wykorzystane technologie: JavaFx, NIO
-![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/server1.png)
-![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/server2.png)
-![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/screen1.png)
+![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/server1.PNG)
+![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/server2.PNG)
+![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/screen1.PNG)
