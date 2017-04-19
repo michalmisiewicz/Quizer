@@ -1,6 +1,6 @@
 ### Sieciowa wersja gry Milionerzy na Androida
 #### Klient
-<img src="https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/game1.png" width="640">
+<img src="https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/game1.png" width="720" height="1280">
 
 ##
 ![ScreenShot](https://raw.github.com/michalmisiewicz/Quizer/master/screenshots/game2.png)
